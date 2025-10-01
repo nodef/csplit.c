@@ -164,7 +164,7 @@ int main(int argc, char** argv){
 
 ### Why does it exist?
 
-I wrote csplit because I found string manipulation in C to be very difficult, particularly the `strtok` built in function. I have successfully used csplit in several projects, primarily for parsing input files, and I hope it proves to be of use to you.
+I wrote csplit because I found string manipulation in C to be frustrating compared to some higher level languages, particularly the `strtok` built in function. I have successfully used csplit in several projects, primarily for parsing input files, and I hope it proves to be of use to you.
 
 ### License
 
