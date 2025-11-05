@@ -4,22 +4,21 @@
 
 # csplit [![Tests](https://github.com/jwlodek/csplit/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/jwlodek/csplit/actions/workflows/unit-tests.yml)
 
-A single header C library that can be used to easily handle splitting strings and other string operations in C.
+A single header C library that can be used to easily handle splitting strings and other string operations in C - by [Jakub Wlodek](https://github.com/jwlodek).
 
 ### Installation
 
-Because csplit is a single-header library, all you need to do is copy the `csplit.h` file into your project, and
-include it at the top of your source file in which you would like to use it. You can get this file by via the 
-appropriate link in the [releases](https://github.com/jwlodek/csplit/releases) tab, or by cloning the 
-entire repository as follows:
+Run:
+```bash
+$ npm i csplit.c
 ```
-git clone https://github.com/jwlodek/csplit
+
+And then include `csplit.h` as follows:
+```c
+#include "node_modules/csplit.c/csplit.h"
 ```
-Then copy `csplit.h` into your repository, add the
-```C
-#include "csplit.h"
-```
-line at the top of your code, and, if necessary, update your project's include path.
+
+If necessary, update your project's include path.
 
 ### Usage
 
@@ -169,3 +168,10 @@ I wrote csplit because I found string manipulation in C to be frustrating compar
 ### License
 
 MIT (c) 2019 - Jakub Wlodek
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/csplit.c)
